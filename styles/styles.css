@@ -79,6 +79,10 @@ section {
   transform: translateY(0) scaleY(1);
 }
 
+.nameofproject {
+  text-align: center;
+}
+
 @keyframes appear {
   0% {
     transform: translateY(-100%) scaleY(0);
