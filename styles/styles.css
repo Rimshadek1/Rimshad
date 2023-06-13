@@ -1067,8 +1067,8 @@ section {
   /* Adjust the top position according to your needs */
   left: 20px;
   /* Adjust the left position according to your needs */
-  width: 150px;
-  height: 150px;
+  width: 250px;
+  height: 250px;
   background-color: rgba(92, 97, 100, 0.5);
   /* Adjust the alpha value (0.5) to set the desired transparency */
   box-shadow: 0px 0px 50px 3px #000;
