@@ -1064,13 +1064,10 @@ section {
 .center {
   position: absolute;
   top: 20px;
-  /* Adjust the top position according to your needs */
   left: 20px;
-  /* Adjust the left position according to your needs */
   width: 250px;
   height: 250px;
-  background-color: rgba(92, 97, 100, 0.5);
-  /* Adjust the alpha value (0.5) to set the desired transparency */
+  background-color: rgba(167, 167, 167, 0.5);
   box-shadow: 0px 0px 50px 3px #000;
 }
 
@@ -1085,7 +1082,7 @@ section {
   position: absolute;
   width: 220px;
   height: 220px;
-  background-color: rgba(119, 119, 119, 0.5);
+  background-color: rgba(255, 255, 255, 0.5);
   /* Adjust the alpha value (0.5) to set the desired transparency */
   left: 6%;
   top: 6%;
@@ -1097,7 +1094,7 @@ section {
   position: absolute;
   width: 200px;
   height: 200px;
-  background-color: rgba(119, 119, 119, 0.5);
+  background-color: rgba(202, 198, 198, 0.5);
   left: 10%;
   top: 10%;
   animation: ani 3s infinite;
@@ -1108,7 +1105,7 @@ section {
   position: absolute;
   width: 180px;
   height: 180px;
-  background-color: rgba(92, 92, 92, 0.5);
+  background-color: rgba(223, 220, 220, 0.5);
   left: 14%;
   top: 14%;
   animation: ani 3s infinite;
@@ -1119,7 +1116,7 @@ section {
   position: absolute;
   width: 160px;
   height: 160px;
-  background-color: rgba(112, 112, 112, 0.5);
+  background-color: rgba(207, 206, 206, 0.5);
   left: 18%;
   top: 18%;
   animation: ani 3s infinite;
@@ -1130,7 +1127,7 @@ section {
   position: absolute;
   width: 140px;
   height: 140px;
-  background-color: rgba(75, 75, 75, 0.5);
+  background-color: rgba(175, 175, 175, 0.5);
   left: 22%;
   top: 22%;
   animation: ani 3s infinite;
@@ -1141,7 +1138,7 @@ section {
   position: absolute;
   width: 120px;
   height: 120px;
-  background-color: rgba(83, 83, 83, 0.5);
+  background-color: rgba(211, 211, 211, 0.5);
   left: 26%;
   top: 26%;
   animation: ani 3s infinite;
@@ -1152,7 +1149,7 @@ section {
   position: absolute;
   width: 100px;
   height: 100px;
-  background-color: rgba(92, 92, 92, 0.5);
+  background-color: rgba(226, 222, 222, 0.5);
   left: 30%;
   top: 30%;
   animation: ani 3s infinite;
