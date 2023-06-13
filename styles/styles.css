@@ -1061,3 +1061,195 @@ section {
 }
 
 /*# sourceMappingURL=styles.css.map */
+.center {
+  position: absolute;
+  top: 20px;
+  /* Adjust the top position according to your needs */
+  left: 20px;
+  /* Adjust the left position according to your needs */
+  width: 150px;
+  height: 150px;
+  background-color: rgba(92, 97, 100, 0.5);
+  /* Adjust the alpha value (0.5) to set the desired transparency */
+  box-shadow: 0px 0px 50px 3px #000;
+}
+
+.circle span {
+  box-shadow: 0px 0px 25px #000;
+}
+
+/* Media Query for smaller screen sizes */
+@media screen and (max-width: 768px) {
+  .center {
+    width: 200px;
+    height: 200px;
+  }
+
+  .circle span {
+    left: 8%;
+    top: 8%;
+  }
+
+  .circle span:nth-child(1) {
+    width: 170px;
+    height: 170px;
+    left: 5%;
+    top: 5%;
+  }
+
+  .circle span:nth-child(2) {
+    width: 150px;
+    height: 150px;
+    left: 8%;
+    top: 8%;
+  }
+
+  .circle span:nth-child(3) {
+    width: 130px;
+    height: 130px;
+    left: 11%;
+    top: 11%;
+  }
+
+  .circle span:nth-child(4) {
+    width: 110px;
+    height: 110px;
+    left: 14%;
+    top: 14%;
+  }
+
+  .circle span:nth-child(5) {
+    width: 90px;
+    height: 90px;
+    left: 17%;
+    top: 17%;
+  }
+
+  .circle span:nth-child(6) {
+    width: 70px;
+    height: 70px;
+    left: 20%;
+    top: 20%;
+  }
+
+  .circle span:nth-child(7) {
+    width: 50px;
+    height: 50px;
+    left: 23%;
+    top: 23%;
+  }
+}
+.circle span:nth-child(1) {
+  position: absolute;
+  width: 220px;
+  height: 220px;
+  background-color: rgba(119, 119, 119, 0.5);
+  /* Adjust the alpha value (0.5) to set the desired transparency */
+  left: 6%;
+  top: 6%;
+  animation: ani 3s infinite;
+  animation-delay: 0.3s;
+}
+
+.circle span:nth-child(2) {
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  background-color: rgba(119, 119, 119, 0.5);
+  left: 10%;
+  top: 10%;
+  animation: ani 3s infinite;
+  animation-delay: 0.4s;
+}
+
+.circle span:nth-child(3) {
+  position: absolute;
+  width: 180px;
+  height: 180px;
+  background-color: rgba(92, 92, 92, 0.5);
+  left: 14%;
+  top: 14%;
+  animation: ani 3s infinite;
+  animation-delay: 0.5s;
+}
+
+.circle span:nth-child(4) {
+  position: absolute;
+  width: 160px;
+  height: 160px;
+  background-color: rgba(112, 112, 112, 0.5);
+  left: 18%;
+  top: 18%;
+  animation: ani 3s infinite;
+  animation-delay: 0.6s;
+}
+
+.circle span:nth-child(5) {
+  position: absolute;
+  width: 140px;
+  height: 140px;
+  background-color: rgba(75, 75, 75, 0.5);
+  left: 22%;
+  top: 22%;
+  animation: ani 3s infinite;
+  animation-delay: 0.7s;
+}
+
+.circle span:nth-child(6) {
+  position: absolute;
+  width: 120px;
+  height: 120px;
+  background-color: rgba(83, 83, 83, 0.5);
+  left: 26%;
+  top: 26%;
+  animation: ani 3s infinite;
+  animation-delay: 0.8s;
+}
+
+.circle span:nth-child(7) {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  background-color: rgba(92, 92, 92, 0.5);
+  left: 30%;
+  top: 30%;
+  animation: ani 3s infinite;
+  animation-delay: 0.9s;
+}
+@keyframes ani {
+  0% {
+    transition: .7s;
+    transform: rotate(0deg);
+  }
+
+  20% {
+    transition: .7s;
+    transform: rotate(95deg);
+  }
+
+  50% {
+    transition: .7s;
+    transform: rotate(360deg);
+  }
+
+  100% {
+    transition: .7s;
+    transform: rotate(0deg);
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .center {
+    position: absolute;
+    top: 0;
+    left: 94px;
+    /* Adjust the left position according to your needs */
+    width: 250px;
+    height: 250px;
+    background-color: rgba(92, 97, 100, 0.5);
+    /* Adjust the alpha value (0.5) to set the desired transparency */
+    box-shadow: 0px 0px 50px 3px #000;
+  }
+
+
+}
