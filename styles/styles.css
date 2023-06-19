@@ -164,13 +164,13 @@ section {
 .controls .active-btn {
   background-color: var(--color-secondary);
   transition: all 0.4s ease-in-out;
-  transition: background-color 0.3s ease,
+  /* transition: background-color 0.3s ease,
     box-shadow 0.3s ease;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3); */
 }
 
 .controls .active-btn:hover {
-  box-shadow: 0 0 10px 4px rgba(255, 255, 255, 0.3);
+  box-shadow: 0 0 10px 4px #27AE60;
 }
 
 .controls .active-btn i {
