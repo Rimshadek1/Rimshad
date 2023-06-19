@@ -34,7 +34,7 @@
   --color-grey-4: #454e56;
   --color-grey-5: #f8f8f8;
   --color-grey-6: #12181b;
-  --color-grey-7: #5e5e5e;
+  --color-grey-7: #696868;
 }
 
 body {
@@ -727,6 +727,7 @@ section {
   align-self: flex-start;
   align-items: center;
   overflow: hidden;
+  cursor: pointer;
 }
 
 .main-btn .btn-text {
