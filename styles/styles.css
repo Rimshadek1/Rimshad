@@ -23,7 +23,7 @@
 
 .light-mode {
   --color-primary: #FFFFFF;
-  --color-secondary: #F56692;
+  --color-secondary: #4e90c4;
   --color-white: #454e56;
   --color-black: #000;
   --color-grey0: #f8f8f8;
@@ -33,6 +33,7 @@
   --color-grey-4: #454e56;
   --color-grey-5: #f8f8f8;
   --color-grey-6: #12181b;
+  box-shadow: 0 0 10px 4px rgba(0, 0, 0, 0.3);
 }
 
 body {
@@ -66,6 +67,31 @@ section {
   left: 0;
   top: 0;
   padding: 3rem 18rem;
+}
+
+.whatsapp-icon {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: rgb(77, 194, 71);
+  color: white;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  z-index: 9999;
+  text-decoration: none;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+  /* Add box-shadow transition */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+  /* Add initial box-shadow */
+}
+
+.whatsapp-icon:hover {
+  box-shadow: 0 0 10px 4px rgba(255, 255, 255, 0.3);
 }
 
 .container {
@@ -1240,6 +1266,24 @@ section {
 }
 
 @media screen and (max-width: 500px) {
+  .whatsapp-icon {
+    position: fixed;
+    bottom: 100px;
+    right: 20px;
+    background-color: rgb(77, 194, 71);
+    color: white;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    z-index: 9999;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+  }
+
   .center {
     position: absolute;
     top: 8px;
